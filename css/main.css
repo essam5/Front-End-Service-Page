@@ -1,0 +1,592 @@
+
+
+header {
+display: flex;    
+background: linear-gradient( rgba(0,0,0,0.856) , rgba(0, 0, 0, 0.705)),url("../img/Group\ 179.png") ;
+background-size: cover;
+height: 100px;
+width: 1977;
+align-items: center;
+
+}
+.logo {
+    margin-right: 30px;
+    margin-left: 100px;
+    
+}
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 50px;
+    margin-left: 100px;
+    
+
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.nav-menu li a{
+    display: inline-block ;
+    position: relative;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: #ffffff;
+
+}
+.header-cta-button {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 20px;
+    margin-right: 15px;
+    background-color: #E8BB45;
+    color: #000000;
+    border-radius: 50px;
+    padding: 12px 30px ;
+
+    white-space: nowrap;
+    font-size: 12px;
+    display: inline-block;
+    border: 2px solid #E8BB45;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h2 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-left: 370px;
+    padding-top: 100px;
+    position: relative;
+    font-weight: bold;
+    font-size: 85px;
+    color: #E8BB45;
+    letter-spacing: 0.04px;
+    font-family: 'Mulish', sans-serif;
+
+}
+/* services section*/
+.services{
+    background: linear-gradient( rgba(0, 0, 0, 0.856) , rgba(0,0,0,0.582)) ,url(../img/Group\ 179.png) no-repeat center fixed;
+    background-size: cover;
+    height: 850px;
+  }
+
+  .services_icons_wrapper{
+    padding-top: 200px;
+    padding-bottom: 175px;
+  }
+  
+  .icon-box {
+    padding: 30px;
+  }
+  
+  .scorlto img{
+    width: 100px;
+    height: 84px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  
+  .scorlto p {
+    color: #ffffff;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 0.02px;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: capitalize;
+
+  }
+  /**** Digital marketing section******************************************************/
+  .section-digital-marketing {
+      background-color: #ffffff;
+      display: flex;
+      padding: 50px;
+
+  }
+
+  .main-section {
+      height: 383px;
+      width: 836px;
+      background-color: #fff;
+      margin-left: 10px;
+      margin-right: 5px;
+  }
+
+  .slider-1 {
+      background-image: url("../img/digital-new1.png");
+      background-size: cover;
+      width: 408px;
+      height: 383px;
+      animation: slide-1 4.5s infinite;
+  }
+  @keyframes slide-1{
+      50%{
+        background: url("../img/digital-new2.png");
+      }
+      100%{
+        background: url("../img/digital-new1.png");
+      }
+  }
+
+  .digital-h1 {
+      font-style: normal;
+      color: #E8BB45;
+      margin: 0px 0px 8px;
+      font-size: 51px;
+      font-family: 'Mulish', sans-serif;
+  }
+
+  .digital-p {
+      color: #cecece;
+      margin: 26px 0px 16px;
+      font-family: 'Noto Sans', sans-serif;
+      font-style: normal;
+      font-size: 19px;
+  }
+
+  li {
+      color: #939393;
+      font-size: 15px;
+      font-family: 'Noto Sans', sans-serif;
+      font-style: normal;
+
+  }
+
+  /**** Branding section*****************************************************************/
+
+.section-branding {
+    background-color: #7070702f;
+    display: flex;
+    padding: 50px;
+
+}
+
+.main-branding-section {
+    height: 383px;
+    width: 836px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.slider-2 {
+    background-image: url("../img/branding1.png");
+    background-size: cover;
+    width: 408px;
+    height: 383px;
+    animation: slide-2 4.5s infinite;
+}
+@keyframes slide-2{
+    50%{
+      background: url("../img/branding2.png");
+    }
+    100%{
+      background: url("../img/branding1.png");
+    }
+}
+
+.branding-h1 {
+    font-style: normal;
+    color: #E8BB45;
+    margin: 0px 0px 8px;
+    font-size: 51px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.branding-p {
+    color: #cecece;
+    margin: 26px 0px 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 19px;
+}
+
+li {
+    color: #939393;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+
+}
+
+
+
+  /**** offline advertising section*************************************************8**/
+
+
+.section-offline-adv {
+    background-color: #ffffff;
+    display: flex;
+    padding: 50px;
+
+}
+
+.main-offline-adv-section {
+    height: 383px;
+    width: 836px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.slider-3 {
+    background-image: url("../img/offline-ad1.png");
+    background-size: cover;
+    width: 408px;
+    height: 383px;
+    animation: slide-3 4.5s infinite;
+}
+@keyframes slide-3{
+    50%{
+      background: url("../img/offline-ad2.png");
+    }
+    100%{
+      background: url("../img/offline-ad1.png");
+    }
+}
+
+.offline-adv-h1 {
+    font-style: normal;
+    color: #E8BB45;
+    margin: 0px 0px 8px;
+    font-size: 51px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.offline-adv-p {
+    color: #939393;
+    margin: 26px 0px 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 19px;
+}
+
+
+  /**** web development section*****************************************************/
+
+  .section-web-dev {
+    background-color: #7070702f;
+    display: flex;
+    padding: 50px;
+
+}
+
+.main-web-dev-section {
+    height: 383px;
+    width: 836px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.slider-4 {
+    background-image: url("../img/web-develope1.png");
+    background-size: cover;
+    width: 408px;
+    height: 383px;
+    animation: slide-4 4.5s infinite;
+}
+@keyframes slide-4{
+    50%{
+      background: url("../img/web-develope2.png");
+    }
+    100%{
+      background: url("../img/web-develope1.png");
+    }
+}
+
+.web-dev-h1 {
+    font-style: normal;
+    color: #E8BB45;
+    margin: 0px 0px 8px;
+    font-size: 51px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.web-dev-p {
+    color: #939393;
+    margin: 26px 0px 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 19px;
+}
+
+
+  /**** mobile app section**********************************************/
+
+
+.section-mob-app {
+    background-color: #ffffff;
+    display: flex;
+    padding: 50px;
+
+}
+
+.main-mob-app-section {
+    height: 383px;
+    width: 836px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.slider-5 {
+    background-image: url("../img/mobile-app1.png");
+    background-size: cover;
+    width: 408px;
+    height: 383px;
+    animation: slide-5 4.5s infinite;
+}
+@keyframes slide-5{
+    50%{
+      background: url("../img/mobile-app2.png");
+    }
+    100%{
+      background: url("../img/mobile-app1.png");
+    }
+}
+
+.mob-app-h1 {
+    font-style: normal;
+    color: #E8BB45;
+    margin: 0px 0px 8px;
+    font-size: 51px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.mob-app-p {
+    color: #939393;
+    margin: 26px 0px 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 19px;
+}
+
+
+  /**** *****ERB system section***********************/
+.section-erp {
+    background-color: #7070702f;
+    display: flex;
+    padding: 50px;
+
+}
+
+.main-erp-section {
+    height: 383px;
+    width: 836px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.slider-6 {
+    background-image: url("../img/ERP1.png");
+    background-size: cover;
+    width: 408px;
+    height: 383px;
+    animation: slide-6 4.5s infinite;
+}
+@keyframes slide-6{
+    50%{
+      background: url("../img/ERP2.png");
+    }
+    100%{
+      background: url("../img/ERP1.png");
+    }
+}
+
+.erp-h1 {
+    font-style: normal;
+    color: #E8BB45;
+    margin: 0px 0px 8px;
+    font-size: 51px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.erp-p {
+    color: #939393;
+    margin: 26px 0px 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 19px;
+}
+
+
+  /**** cloud services section***************************/
+
+.section-cloud {
+    background-color: #ffffff;
+    display: flex;
+    padding: 50px;
+
+}
+
+.main-cloud-section {
+    height: 383px;
+    width: 836px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.slider-7 {
+    background-image: url("../img/cloud1.png");
+    background-size: cover;
+    width: 408px;
+    height: 383px;
+    animation: slide-7 4.5s infinite;
+}
+@keyframes slide-7{
+    50%{
+      background: url("../img/cloud2.png");
+    }
+    100%{
+      background: url("../img/cloud1.png");
+    }
+}
+
+.cloud-h1 {
+    font-style: normal;
+    color: #E8BB45;
+    margin: 0px 0px 8px;
+    font-size: 51px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.cloud-p {
+    color: #939393;
+    margin: 26px 0px 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 19px;
+}
+
+  /**** content creation section*************************/
+
+  .section-content {
+    background-color: #7070702f;
+    display: flex;
+    padding: 50px;
+
+}
+
+.main-content-section {
+    height: 383px;
+    width: 836px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.slider-8 {
+    background-image: url("../img/digital-new1.png");
+    background-size: cover;
+    width: 408px;
+    height: 383px;
+    animation: slide-8 4.5s infinite;
+}
+@keyframes slide-8{
+    50%{
+      background: url("../img/digital-new2.png");
+    }
+    100%{
+      background: url("../img/digital-new1.png");
+    }
+}
+
+.content-h1 {
+    font-style: normal;
+    color: #E8BB45;
+    margin: 0px 0px 8px;
+    font-size: 51px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.content-p1 {
+    color: #cecece;
+    margin: 26px 0px 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 19px;
+}
+
+.content-p2 {
+    color: #939393;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+
+}
+
+  /**** public relations section***/
+
+.section-public-rel {
+    background-color: #ffffff;
+    display: flex;
+    padding: 50px;
+
+}
+
+.main-public-rel-section {
+    height: 383px;
+    width: 836px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.slider-9 {
+    background-image: url("../img/digital-new1.png");
+    background-size: cover;
+    width: 408px;
+    height: 383px;
+    animation: slide-9 4.5s infinite;
+}
+@keyframes slide-9{
+    50%{
+      background: url("../img/digital-new2.png");
+    }
+    100%{
+      background: url("../img/digital-new1.png");
+    }
+}
+
+.public-rel-h1 {
+    font-style: normal;
+    color: #E8BB45;
+    margin: 0px 0px 8px;
+    font-size: 51px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.public-rel-p1 {
+    color: #cecece;
+    margin: 26px 0px 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 19px;
+}
+
+.public-rel-p2 {
+    color: #939393;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+
+}
